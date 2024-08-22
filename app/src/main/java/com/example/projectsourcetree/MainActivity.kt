@@ -50,5 +50,11 @@ fun RegisterScreen(modifier: Modifier = Modifier) {
             onValueChange = { emailValue = it },
             modifier = Modifier.fillMaxWidth()
         )
+        
+        OutlinedTextField(
+            value = emailValue,
+            onValueChange = { emailValue = it },
+            modifier = Modifier.fillMaxWidth()
+        )
     }
 }
